@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartXmx;
+namespace Tunjioye;
 
 class SmartXmx
 {

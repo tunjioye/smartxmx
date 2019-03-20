@@ -1,7 +1,7 @@
 <?php
     require "..\src\SmartXmx.php";
 
-    use SmartXmx\SmartXmx;
+    use Tunjioye\SmartXmx;
 
     // Provide Your Smart SMS Solutions LOGIN
     // update username and password below
