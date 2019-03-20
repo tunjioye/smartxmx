@@ -1,5 +1,5 @@
 <?php
-    require "..\src\SmartXmx\SmartXmx.php";
+    require "..\src\SmartXmx.php";
 
     use SmartXmx\SmartXmx;
 
