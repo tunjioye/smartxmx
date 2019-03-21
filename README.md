@@ -10,7 +10,7 @@ Via [Composer](https://getcomposer.org)
 
 To get the latest version of SmartXmx, simply require it
 
-```bash
+```
 composer require tunjioye/smartxmx
 ```
 
@@ -27,4 +27,4 @@ After which you have to run `composer install` or `composer update` to download 
 // to be continued ...
 
 ## License
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
