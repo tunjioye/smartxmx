@@ -7,6 +7,10 @@
             "email": "oyenirantunji2339@gmail.com"
         }
     ],
+	"support": {
+		"issues": "https://github.com/tunjioye/smartxmx/issues",
+		"source": "https://github.com/tunjioye/smartxmx"
+	},
     "license": "MIT",
     "minimum-stability": "stable",
     "require": {
