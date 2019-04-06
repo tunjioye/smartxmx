@@ -1,6 +1,7 @@
 {
     "name": "tunjioye/smartxmx",
     "description": "Simple PHP Class to utilize Smart SMS Solutions Bulk Sms HTTP API",
+	"keywords": ["sms", "xmx", "bulk sms", "bulk sms api", "smart sms solutions", "smartsmssolutions.com", "smartxmx"],
     "authors": [
         {
             "name": "Tunji Oyeniran",
