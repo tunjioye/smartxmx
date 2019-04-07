@@ -1,5 +1,7 @@
 <?php
 
+namespace Tunjioye\SmartXmx\Test;
+
 use Tunjioye\SmartXmx;
 
 class SmartXmxTest extends PHPUnit_Framework_TestCase {
