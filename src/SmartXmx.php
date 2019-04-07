@@ -60,7 +60,7 @@ class SmartXmx
             }
         }
 
-        return SmartXmx::interpreteResponse(file_get_contents('http://api.smartsmssolutions.com/smsapi.php?username='.urlencode(self::$username).'&password='.urlencode(self::$password).'&sender='.urlencode($this->sender).'&recipient='.urlencode($recipent_string).'&message='.urlencode($this->message)));
+        return SmartXmx::interpretResponse(file_get_contents('http://api.smartsmssolutions.com/smsapi.php?username='.urlencode(self::$username).'&password='.urlencode(self::$password).'&sender='.urlencode($this->sender).'&recipient='.urlencode($recipent_string).'&message='.urlencode($this->message)));
     }
 
     /**
@@ -69,16 +69,16 @@ class SmartXmx
      * @return void
      */
     public static function checkSmsBalance() {
-        return SmartXmx::interpreteResponse(file_get_contents('http://api.smartsmssolutions.com/smsapi.php?username='.urlencode(self::$username).'&password='.urlencode(self::$password).'&balance=true'));
+        return SmartXmx::interpretResponse(file_get_contents('http://api.smartsmssolutions.com/smsapi.php?username='.urlencode(self::$username).'&password='.urlencode(self::$password).'&balance=true'));
     }
 
     /**
-     * interpreteResponse
+     * interpretResponse
      *
      * @param mixed $response
      * @return void
      */
-    public static function interpreteResponse($response) {
+    public static function interpretResponse($response) {
         $response_array = explode(' ', $response);
 
         if (count($response_array) > 1) {
