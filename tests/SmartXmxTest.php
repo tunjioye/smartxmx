@@ -2,7 +2,8 @@
 
 namespace Tunjioye\SmartXmx\Test;
 
-use Tunjioye\SmartXmx;
+use PHPUnit_Framework_TestCase;
+use Tunjioye\SmartXmx\SmartXmx;
 
 class SmartXmxTest extends PHPUnit_Framework_TestCase {
     /**

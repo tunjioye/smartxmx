@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tunjioye\\": "src"
+            "Tunjioye\\SmartXmx\\": "src"
         }
     },
     "autoload-dev": {
