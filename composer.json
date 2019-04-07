@@ -1,33 +1,33 @@
 {
-    "name": "tunjioye/smartxmx",
-    "description": "Simple PHP Class to utilize Smart SMS Solutions Bulk Sms HTTP API",
+  "name": "tunjioye/smartxmx",
+  "description": "Simple PHP Class to utilize Smart SMS Solutions Bulk Sms HTTP API",
 	"keywords": ["sms", "xmx", "bulk sms", "bulk sms api", "smart sms solutions", "smartsmssolutions.com", "smartxmx"],
-    "authors": [
-        {
-            "name": "Tunji Oyeniran",
-            "email": "oyenirantunji2339@gmail.com"
-        }
-    ],
+  "authors": [
+    {
+      "name": "Tunji Oyeniran",
+      "email": "oyenirantunji2339@gmail.com"
+    }
+	],
 	"support": {
 		"issues": "https://github.com/tunjioye/smartxmx/issues",
 		"source": "https://github.com/tunjioye/smartxmx"
 	},
-    "license": "MIT",
-    "minimum-stability": "stable",
-    "require": {
-        "php": ">=5.3.3"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "4.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Tunjioye\\SmartXmx\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tunjioye\\SmartXmx\\Test\\": "tests"
-        }
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+  	"phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tunjioye\\SmartXmx\\": "src"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tunjioye\\SmartXmx\\Test\\": "tests"
+    }
+  }
 }
