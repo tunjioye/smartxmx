@@ -3,7 +3,7 @@
 
 
 ## Requirements
-[PHP](https://php.net) >=5.3 is required.
+[PHP](https://php.net) >=5.3.3 is required.
 
 ## Installation
 Via [Composer](https://getcomposer.org)
